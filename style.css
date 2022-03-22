@@ -1,0 +1,81 @@
+html{
+    display: block;
+}
+body{
+    font-family:monospace;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    color: #123c69;
+    background-color:#bab2b5;
+}
+
+header{
+    background-color: #edc7b7;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    border-bottom: 4px solid #123c69;
+}
+
+
+header ul{
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #123c69;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 2.8rem;
+}
+/* info */
+
+.info{
+    background-image:url(./resources/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    border-bottom: 4px solid #123c69;
+}
+.info h1{
+    
+    font-size: 4rem;
+    color: #bab2b5;
+    margin-top: 2rem;
+}
+.info h2{
+    font-size: 3rem;
+    color: #bab2b5;
+    margin-top: 1rem;
+}
+
+.avatar{
+    align-self: center;
+    height: 200px;
+    width: 200px;  
+    border-radius: 50%;
+    border: 3px solid #edc7b7;
+    overflow: hidden;
+    position: relative;
+    background-color: #123c69;
+}
+.avatar img{
+    opacity: 1;
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+/* about me */
