@@ -62,10 +62,10 @@ a{
 
 .avatar{
     align-self: center;
-    height: 200px;
-    width: 200px;  
+    height: 300px;
+    width: 350px;  
     border-radius: 50%;
-    border: 3px solid #edc7b7;
+    border: 3px solid #ac3b61;
     overflow: hidden;
     position: relative;
     background-color: #123c69;
@@ -79,3 +79,168 @@ a{
 }
 
 /* about me */
+.about{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid #123c69;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.about h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about p{
+    font-size: 1.2rem;
+    width: 80%;
+    align-self: center;
+}
+
+.about h3{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+.about i{
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+/* Projects */
+.pro-con{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #123c69;
+
+}
+
+.pro-con h2{
+    font-size: 3rem;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    width: 22rem;
+    overflow: hidden;
+    margin: 2rem;
+    border-radius: 15px;
+    background-color: #ac3b61;
+    border: 2px solid #123c69;
+    box-shadow: rgb(0, 0, 0, 0.4) 10px 10px;
+}
+
+.container img{
+    height: 15rem;
+}
+
+.details{
+    align-self: center;
+}
+
+.details p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #edc7b7;
+}
+.details i{
+    font-size: 4rem;
+    justify-self: center;
+    color: #123c69;
+}
+
+/* hobbies */
+
+.hobbie_con{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+
+.hobbie_con h2{
+    font-size: 3rem;
+    font-weight:bold;
+    text-shadow: #bab2b5 10px 10px;
+}
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+/* footer */
+
+footer{
+    height: 60px;
+    background-color: #edc7b7;
+    border-top: 3px solid #123c69;
+    margin-bottom: 0px;
+}
+
+footer h4, footer i{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #123c69;
+
+}
+
+footer i{
+    color: #ac3b61;
+}
+
+/* contact page */
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+
+.formcontainer{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 600px;
+    margin-top: 50px;
+    background-color:#123c69;
+    border-radius: 15px;
+    line-height: 2rem;
+
+}
+
+.formcontainer h2{
+    color: #edc7b7;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label{
+    font-size: 2rem;
+    color: #edc7b7;
+    margin-left: 20px;
+}
+#submit{
+    color: #ac3b61;
+    font-size: 2rem;
+    background-color: #bab2b5;
+    border-radius: 20px;
+}
