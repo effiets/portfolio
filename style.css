@@ -10,6 +10,7 @@ body{
     background-color:#bab2b5;
 }
 
+
 header{
     background-color: #edc7b7;
     height: 100px;
@@ -76,6 +77,7 @@ a{
     margin: 0 auto;
     height: 100%;
     width: auto;
+
 }
 
 /* about me */
@@ -182,6 +184,7 @@ a{
     justify-content: space-around;
     align-content: space-around;
 }
+
 
 /* footer */
 
