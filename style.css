@@ -36,6 +36,10 @@ a{
     text-decoration: none;
     padding-left: 2.8rem;
 }
+
+
+
+
 /* info */
 
 .info{
@@ -247,3 +251,52 @@ label{
     background-color: #bab2b5;
     border-radius: 20px;
 }
+
+@media only screen and (max-width:600px){
+    header{
+        height: auto;
+    }
+    header ul{
+        margin: 0 auto;
+        flex-direction: column;
+       
+    }
+    a{
+        font-size: 1rem;
+        
+    }
+
+    .info{
+        height: auto;
+    }
+    .info h1{
+    
+        font-size: 2rem;
+       
+    }
+
+
+    .info h2{
+        font-size: 2rem;
+        margin-top: .6rem;
+    }
+    .avatar{
+        height: 150px;
+        width: 150px;  
+        border-radius: 50%;
+        border: 3px solid #ac3b61;
+        overflow: hidden;
+        position: relative;
+        background-color: #123c69;
+    }
+    .avatar img{
+        opacity: 1;
+        display: inline;
+        margin: 0 auto;
+        height: 150px;
+        width: 150px;
+    
+    }
+
+
+    }
