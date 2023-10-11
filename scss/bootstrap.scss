@@ -1,0 +1,52 @@
+//Fonts
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-monospace: "Inconsolata", monospace;
+
+//Colors
+$primary: #0093ab;
+$secondary: #006778;
+$dark: #000;
+$light: #f4f4f4;
+
+//Buttons
+$button-radius: 0;
+$button-radius-x: 20px;
+$button-radius-y: 12px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$input-btn-padding-y: $button-radius-y;
+$input-btn-padding-y-sm: $button-radius-y;
+$input-btn-padding-y-lg: $button-radius-y;
+$input-btn-padding-x: $button-radius-x;
+$input-btn-padding-x-sm: $button-radius-x;
+$input-btn-padding-x-lg: $button-radius-x;
+
+$navbar-toggler-border-radius: 5px;
+
+//Spacing
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+//containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 980px,
+  xxl: 1000px,
+) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

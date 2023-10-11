@@ -1,0 +1,44 @@
+.header {
+  background: #151515 url("../images/network_bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.header .text-container {
+  z-index: 10;
+}
+
+.header .roles {
+  font-family: "Inconsolata", monospace;
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+}
+
+.project-card .card-img {
+  height: 200px;
+}
+
+@media (max-width: 767px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .project-card {
+    margin-top: 2rem;
+  }
+  .profile {
+    margin-top: 2rem !important;
+  }
+}
